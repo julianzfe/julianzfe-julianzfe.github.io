@@ -1,7 +1,12 @@
 body {
    align: center
 }
+header
+{
+    color: red;
+    font-family: sans-serif;
 
+}
 p
 {
     color: red;
