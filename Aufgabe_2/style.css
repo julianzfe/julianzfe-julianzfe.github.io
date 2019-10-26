@@ -1,11 +1,10 @@
-body {
-   align: center
-}
+
+
 header
 {
     color: red;
     font-family: sans-serif;
-
+    align-items: center;
 }
 p
 {
@@ -38,6 +37,11 @@ background:red;
 
 }
 
-
+.flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
