@@ -47,15 +47,6 @@ color: red;
 }
 
 
-.int
-{
-    
-    justify-content: center;
-    align-items: center;
-    font-size: 30;
-    font-family: sans-serif;    
-}
-
 .akse
 {color: red;}
 
@@ -64,7 +55,13 @@ body
 background-image:url("bg.png");
 
 }
-.nav2
+#fbicon
 {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    margin: auto;
+    width:30px ;
+    height:30px ;
+    background:black
 }
