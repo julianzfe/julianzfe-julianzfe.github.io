@@ -35,8 +35,8 @@ background:black;
 
 }
 a:hover{
-background:red;
 
+color: red;
 }
 
 .flex
@@ -52,3 +52,14 @@ font-size: 30;
 font-family: sans-serif;
 }
 
+.int
+{
+    align-items: center;
+    font-size: 30;
+    font-family: sans-serif;    
+}
+
+.akse
+{
+color: red;
+}
