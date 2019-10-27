@@ -64,6 +64,6 @@ font-family: sans-serif;
 
 body
 {
-background-image: bg.png;
+background-image:url("bg.png");
 
 }
