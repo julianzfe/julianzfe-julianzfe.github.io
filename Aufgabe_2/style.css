@@ -45,12 +45,7 @@ color: red;
     justify-content: center;
     align-items: center;
 }
-.exp
-{
-align-items: center;
-font-size: 30;
-font-family: sans-serif;
-}
+
 
 .int
 {
@@ -68,4 +63,8 @@ body
 {
 background-image:url("bg.png");
 
+}
+.nav2
+{
+    align-items: center;
 }
