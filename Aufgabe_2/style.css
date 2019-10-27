@@ -54,6 +54,8 @@ font-family: sans-serif;
 
 .int
 {
+    
+    justify-content: center;
     align-items: center;
     font-size: 30;
     font-family: sans-serif;    
