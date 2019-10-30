@@ -25,12 +25,14 @@ nav
     position: fixed;
     top: 0px;
     right:0px;
+    background:black;
+    box-sizing: border-box; border-radius: 0px 0px 15px 15px; line-height: 30px;
 }
 a{
 
 font-size:40px;
 color: white;
-background:black;
+
 
 
 }
