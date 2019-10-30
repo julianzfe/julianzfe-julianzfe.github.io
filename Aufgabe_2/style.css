@@ -79,3 +79,33 @@ width: 300px;
 font-family: sans-serif;
 font-size: 20px;
 }
+.demoform input[type="text"]
+{
+    width: 300px;  
+    box-sizing: border-box;
+    padding: 4px;
+    outline: none;
+    background-color: grey;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+.na
+{
+    color: white;
+    background-color: grey;
+    width: 600px;
+    font-family: sans-serif;
+    font-size: 20px;
+    height: 100px;
+
+}
+.daten
+{
+color: grey;
+font-family: sans-serif;
+font-size: 10px;
+
+
+}
