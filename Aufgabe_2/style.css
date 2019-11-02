@@ -11,7 +11,7 @@ p
 {
     color: red;
     font-family: sans-serif;
-    font-size: 20px; 
+    font-size: 30px; 
 }
 img{
 
@@ -30,9 +30,9 @@ nav
 }
 a{
 
-font-size:40px;
+font-size:30px;
 color: white;
-
+font-family: sans-serif;
 
 
 }
@@ -43,6 +43,7 @@ color: red;
 
 .flex
 {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,6 +76,7 @@ background-image:url("bg.png");
 }
 .formular
 {
+margin-top: 20px;
 color: white;
 background-color: grey;
 width: 300px;
@@ -94,6 +96,7 @@ font-size: 20px;
 }
 .na
 {
+    margin-top: 20px;
     color: white;
     background-color: grey;
     width: 600px;
@@ -104,9 +107,19 @@ font-size: 20px;
 }
 .daten
 {
+margin-top: 20px;
 color: grey;
 font-family: sans-serif;
 font-size: 10px;
+
+
+}
+
+.link
+{
+color: blue;
+font-family: sans-serif;
+font-size: 30px;
 
 
 }
