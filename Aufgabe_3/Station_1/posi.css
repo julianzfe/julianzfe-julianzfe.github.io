@@ -1,0 +1,99 @@
+body
+{
+background-image:url("bg.png");
+height: 100%;
+width: 100%;
+
+}
+
+.wrapper
+{
+position: absolute;
+left:50% ;
+top:50% ;
+margin-left: -300px;
+margin-top: -200px;
+
+background-image:url("wrapperbg.png");
+width: 600px;
+height: 400px;
+}
+
+.bu
+{
+position: absolute;
+margin-top: -65px;
+margin-left: -70px;
+
+
+}
+
+.pi
+{
+position: absolute;
+margin-top: 220px;
+margin-left: 470px;
+
+
+}
+
+.ueber
+{
+position: absolute;
+color: white;
+font-size: 30px;
+margin-top:55px ;
+margin-left: 70px;
+}
+
+.ueberb
+{
+position: absolute;
+color: white;
+font-size: 30px;
+margin-top:87px ;
+margin-left: 70px;
+}
+.uefl
+{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    margin-top:170px ;
+    margin-left: 70px;
+}
+.fta
+{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    margin-top:220px ;
+    margin-left: 70px;
+
+}
+.ftb
+{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    margin-top:240px ;
+    margin-left: 70px;
+}
+.ftc
+{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    margin-top:260px ;
+    margin-left: 70px;
+}
+.fte
+{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    margin-top:295px ;
+    margin-left: 70px;
+
+
+}
