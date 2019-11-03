@@ -1,0 +1,67 @@
+body
+{
+background-image:url("bg.png");
+height: 100%;
+width: 100%;}
+
+
+.wrapper
+{
+position: absolute;
+left:50% ;
+top:50% ;
+margin-left: -300px;
+margin-top: -200px;
+background-image:url("wrapperbg.png");
+width: 600px;
+height: 400px;
+}
+
+p{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    margin-top:55px ;
+    margin-left: 70px;    
+}
+
+.b1
+{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.b1:hover
+{
+background: url("stern_hover.png");
+}
+.b2
+{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.b2:hover
+{
+background: url("stern_hover.png");
+}
+.b3
+{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.b3:hover
+{
+background: url("stern_hover.png");
+}
+.b4
+{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 400px;
+}
+.b4:hover
+{
+background: url("stern_hover.png");
+}

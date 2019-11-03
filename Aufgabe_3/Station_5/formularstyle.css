@@ -1,0 +1,103 @@
+body
+{
+background-image:url("bg.png");
+height: 100%;
+width: 100%;}
+
+
+.wrapper
+{
+position: absolute;
+left:50% ;
+top:50% ;
+margin-left: -300px;
+margin-top: -200px;
+background-image:url("wrapperbg.png");
+width: 600px;
+height: 400px;
+}
+h1
+{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    margin-top:55px ;
+    margin-left: 70px;
+}
+.n
+{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    margin-top:120px ;
+    margin-left: 70px;    
+
+}
+.d
+{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    margin-top:20px ;
+    margin-left: 70px;
+
+}
+.g
+{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    margin-top:20px ;
+    margin-left: 70px;
+}
+
+.demoform input[type="text"]
+{
+    width: 300px;  
+    box-sizing: border-box;
+    padding: 4px;
+    outline: none;
+    
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+.formular
+{
+margin-left: 70px;
+margin-top: 140px;
+color: black;
+background-color: white;
+width: 150px;
+font-family: sans-serif;
+font-size: 15px;
+}
+
+.area
+{
+    margin-top:40px ;
+    margin-left: 70px;
+}
+
+.b1
+{
+    margin-top:40px ;
+    margin-left: 0px;    
+}
+.b2
+{
+    margin-top:40px ;
+    margin-left: 50px;
+
+}
+.cb
+{
+    color: white;
+    margin-top:2px ;
+    margin-left: 70px;    
+}
+.bu
+{
+    margin-top:5px ;
+    margin-left: 70px;    
+}
