@@ -16,3 +16,19 @@ background-image:url("wrapperbg.png");
 width: 600px;
 height: 400px;
 }
+.vid
+{
+position: absolute; 
+margin-left: 50px;
+margin-top: 50px; 
+width: 500px;
+height: 300px;
+z-index: 2;
+}
+.s
+{
+    position: absolute; 
+    margin-left: 370px;
+    margin-top: 275px; 
+    z-index: 4;    
+}
