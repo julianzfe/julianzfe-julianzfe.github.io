@@ -1,42 +1,71 @@
 .container
 {
-position: fixed;
-left:50% ;
-top:50% ;
-margin-left: -320px;
-margin-top: -240px;
-background-image:url("bg.jpg");
-width: 640px;
-height: 480px;
-
+    position: fixed;
+    width: 100%;
 }
 body
 {
-background-color: blue;    
+
+background-image:url("bg.jpg"); 
+background-size: cover;
+background-repeat: no-repeat;  
 }
+@media screen and (max-width:600px){}
+
 .q
 {
     position: absolute;
-    margin-top: 40px;
-    margin-left:90px;
-    width:450px;
+    width: 90%;
+    left: 5%;
+    top: 5%;
     z-index:2;
 }
 .f
 {
-    position: absolute;
+
     color: white;
     font-size: 30px;
-    margin-left:-30px;
-    margin-top:65px ;
-    left:50%;
+    text-align:center;
+    margin-top:-15%;
     z-index:4;
+
+}
+.aa1
+{
+    position: absolute;
+    width: 100%;   
+    color: white;
+    font-size: 30px;
+    margin-top:2%;
+    margin-left:-50%;   
+}
+.aaa1
+{
+    position: absolute;
+    width: 100%;   
+    color: white;
+    font-size: 30px;
+    margin-top:2%;
+  
 }
 .a1
 {
+    position: absolute;
+    margin-top:18% ;
+    background-image:url("answer.png") ; 
+    height:80px;   
+    width:100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align:center;
+}
+.a1:hover
+{
+    background-image:url("answer_over.png") ;
 
 
 }
+
 .a2
 {
 
