@@ -143,3 +143,15 @@ font-size: 4vw;
     text-align:center;
     z-index:2
 }
+.l1
+{
+    position: absolute;
+    margin-top:25% ;
+    background-image:url("answer.png") ; 
+    height:80px;   
+    width:100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align:center;
+    z-index:2
+}
