@@ -18,7 +18,7 @@ var Welt:string ="Welt:";
 console.log(Emissionen+der+Welt);
 
 
-
+var space:string =" ";
 var afrika:number = 1235.5;
 var südamerika:number = 1261.5;
 var europa:number = 4209.3;
@@ -53,34 +53,34 @@ var ar8:number = (afrika/gesamt)*100;
 var prozent:string = "%"; 
 console.log(ds + ar8+prozent + dw);
 
-var ad:number = (afrika-afrika8)
-console.log(ds + ad+kg + oder +  afrika8/ad+prozent + mehr )
+var ad:number = (afrika-afrika8);
+console.log(ds + ad+kg + oder + ad / afrika8 *100 +prozent + mehr );
 
-
+console.log(space);
 
 var sa8:string ="die Emissionen Südamerikas liegen bei ";
 
-console.log(sa8 + südamerika + kg)
+console.log(sa8 + südamerika + kg);
 var sar8:number = (südamerika/gesamt)*100;
 var prozent:string = "%"; 
 console.log(ds + sar8+prozent + dw);
 
 var adsa:number = (südamerika-südamerika8)
-console.log(ds + adsa+kg + oder +  südamerika8/adsa+prozent + mehr )
+console.log(ds + adsa+kg + oder + adsa / südamerika8 *100 +prozent + mehr )
 
-
+console.log(space);
 
 var eu8:string ="die Emissionen Europas liegen bei ";
 
-console.log(eu8 + europa + kg)
+console.log(eu8 + europa + kg);
 var eur8:number = (europa/gesamt)*100;
 var prozent:string = "%"; 
 console.log(ds + eur8+prozent + dw);
 
 var adeu:number = (europa8-europa)
-console.log(ds + adeu+kg + oder +  europa8/adeu+prozent + weniger )
+console.log(ds + adeu+kg + oder + adeu / europa8 *100 +prozent + weniger )
 
-
+console.log(space);
 
 var us8:string ="die Emissionen Nordamerikas liegen bei ";
 
@@ -89,32 +89,32 @@ var usr8:number = (nordamerika/gesamt)*100;
 var prozent:string = "%"; 
 console.log(ds + usr8+prozent + dw);
 
-var adus:number = (nordamerika8-nordamerika)
-console.log(ds + adus+kg + oder +  nordamerika8/adeu+prozent + weniger )
+var adus:number = (nordamerika8-nordamerika);
+console.log(ds + adus+kg + oder + adus / nordamerika8 *100 +prozent + weniger );
 
-
+console.log(space);
 
 var as8:string ="die Emissionen Asiens liegen bei ";
 
-console.log(as8 + asien + kg)
+console.log(as8 + asien + kg);
 var asr8:number = (asien/gesamt)*100;
 var prozent:string = "%"; 
 console.log(ds + asr8+prozent + dw);
 
-var asd:number = (asien-asien8)
-console.log(ds + asd+kg + oder +  asien8/asd+prozent + mehr )
+var asd:number = (asien-asien8);
+console.log(ds + asd+kg + oder + asd / asien8 *100 +prozent + mehr );
 
-
+console.log(space);
 
 var aus8:string ="die Emissionen Australiens liegen bei ";
 
-console.log(aus8 + australien + kg)
+console.log(aus8 + australien + kg);
 var ausr8:number = (australien/gesamt)*100;
 var prozent:string = "%"; 
 console.log(ds + ausr8+prozent + dw);
 
-var ausd:number = (australien-australien8)
-console.log(ds + ausd+kg + oder +  australien8/ausd+prozent + mehr )
+var ausd:number = (australien-australien8);
+console.log(ds + ausd+kg + oder + ausd /australien8 *100 +prozent + mehr );
 
 
 
