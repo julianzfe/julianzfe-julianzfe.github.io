@@ -1,10 +1,4 @@
-var test:string = "hallo";
-var welt:string = "welt";
 
-var zahl:number = 90;
-var zahl2:number=100;
-
-console.log(zahl2*zahl);
 
 var zahl:number = 20;
 var zahl1:number = 200;
