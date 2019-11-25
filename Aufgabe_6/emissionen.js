@@ -23,13 +23,21 @@ function af() {
     var ar8 = (afrika / gesamt) * 100;
     //absolute
     console.log(afrika);
+    document.querySelector(".abso").innerHTML = "1235,5";
     //relative
     console.log(ar8 + prozent);
+    document.querySelector(".rela").innerHTML = "3,97%";
     //wachstum%
     console.log(ad / afrika8 * 100 + prozent);
+    document.querySelector(".grop").innerHTML = "20,18%";
     //wachstum
     console.log(ad);
+    document.querySelector(".grow").innerHTML = "207,5";
+    document.querySelector(".chart").setAttribute('height', '4%');
 }
+window.addEventListener('load', function () {
+    document.querySelector(".africa").addEventListener('click', af);
+});
 //südamerika
 function sa() {
     //vars
@@ -44,6 +52,9 @@ function sa() {
     //wachstum
     console.log(adsa);
 }
+window.addEventListener('load', function () {
+    document.querySelector(".southamerica").addEventListener('click', sa);
+});
 //europa
 function eu() {
     //vars
@@ -58,6 +69,9 @@ function eu() {
     //wachstum
     console.log(adeu);
 }
+window.addEventListener('load', function () {
+    document.querySelector(".europe").addEventListener('click', eu);
+});
 //nordamerika
 function na() {
     //vars
@@ -72,6 +86,9 @@ function na() {
     //wachstum
     console.log(adus);
 }
+window.addEventListener('load', function () {
+    document.querySelector(".northamerica").addEventListener('click', na);
+});
 //asien
 function asi() {
     //vars
@@ -86,6 +103,9 @@ function asi() {
     //wachstum
     console.log(asd);
 }
+window.addEventListener('load', function () {
+    document.querySelector(".asia").addEventListener('click', asi);
+});
 //australien
 function aus() {
     //vars
@@ -100,4 +120,7 @@ function aus() {
     //wachstum
     console.log(ausd);
 }
+window.addEventListener('load', function () {
+    document.querySelector(".australia").addEventListener('click', aus);
+});
 //# sourceMappingURL=emissionen.js.map

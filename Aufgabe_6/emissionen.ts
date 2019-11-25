@@ -28,14 +28,20 @@ var ar8:number = (afrika/gesamt)*100;
 
 
 //absolute
-console.log(afrika);
+console.log(afrika); document.querySelector(".abso").innerHTML ="1235,5";
 //relative
-console.log(ar8+prozent);
+console.log(ar8+prozent); document.querySelector(".rela").innerHTML ="3,97%";
 //wachstum%
-console.log(ad /afrika8 *100 +prozent)
+console.log(ad /afrika8 *100 +prozent); document.querySelector(".grop").innerHTML ="20,18%";
 //wachstum
-console.log(ad)
+console.log(ad); document.querySelector(".grow").innerHTML ="207,5";
+document.querySelector(".chart").setAttribute('height', '4%');
+
 }
+window.addEventListener('load', function() {
+    document.querySelector(".africa").addEventListener('click', af);
+});
+
 
 //südamerika
 
@@ -55,11 +61,15 @@ console.log(adsa /europa8 *100 +prozent)
 //wachstum
 console.log(adsa)
 }
+window.addEventListener('load', function() {
+    document.querySelector(".southamerica").addEventListener('click', sa);
+});
 
 //europa
 
 function eu()
 {
+
 //vars
 var adeu:number = (europa8-europa);
 var eur8:number = (europa/gesamt)*100;
@@ -74,6 +84,9 @@ console.log(adeu /europa8 *100 +prozent)
 //wachstum
 console.log(adeu)
 }
+window.addEventListener('load', function() {
+    document.querySelector(".europe").addEventListener('click', eu);
+});
 
 //nordamerika
 
@@ -93,6 +106,9 @@ console.log(adus /nordamerika8 *100 +prozent)
 //wachstum
 console.log(adus)
 }
+window.addEventListener('load', function() {
+    document.querySelector(".northamerica").addEventListener('click', na);
+});
 
 //asien
 
@@ -112,6 +128,9 @@ console.log(asd /asien8 *100 +prozent)
 //wachstum
 console.log(asd)
 }
+window.addEventListener('load', function() {
+    document.querySelector(".asia").addEventListener('click', asi);
+});
 
 //australien
 
@@ -131,3 +150,7 @@ console.log(ausd /australien8 *100 +prozent)
 //wachstum
 console.log(ausd)
 }
+window.addEventListener('load', function() {
+    document.querySelector(".australia").addEventListener('click', aus);
+});
+
