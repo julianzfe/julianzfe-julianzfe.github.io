@@ -1,75 +1,103 @@
-var Emissionen = "Emissionen";
-var der = "der";
-var Welt = "Welt:";
-console.log(Emissionen + der + Welt);
-var space = " ";
+//länder
 var afrika = 1235.5;
 var südamerika = 1261.5;
 var europa = 4209.3;
 var nordamerika = 6035.6;
 var asien = 16274.1;
 var australien = 2100;
+//länder2008
 var afrika8 = 1028;
 var südamerika8 = 1132.6;
 var europa8 = 4965.7;
 var nordamerika8 = 6600.4;
 var asien8 = 12954.7;
 var australien8 = 1993;
-console.log(afrika + südamerika + europa + nordamerika + asien + australien);
-var ds = "das sind ";
-var dw = " der gesamten Emissionen ";
+//allgemein
 var kg = " kg ";
 var gesamt = afrika + südamerika + europa + nordamerika + asien + australien;
-var mehr = " mehr als 2008 ";
-var de = " die Emissionen ";
-var oder = " oder ";
-var weniger = " weniger als 2008 ";
-var af8 = "die Emissionen Afrikas liegen bei ";
-console.log(af8 + afrika + kg);
-var gesamt = afrika + südamerika + europa + nordamerika + asien + australien;
-var ar8 = (afrika / gesamt) * 100;
 var prozent = "%";
-console.log(ds + ar8 + prozent + dw);
-var ad = (afrika - afrika8);
-console.log(ds + ad + kg + oder + ad / afrika8 * 100 + prozent + mehr);
-console.log(space);
-var sa8 = "die Emissionen Südamerikas liegen bei ";
-console.log(sa8 + südamerika + kg);
-var sar8 = (südamerika / gesamt) * 100;
-var prozent = "%";
-console.log(ds + sar8 + prozent + dw);
-var adsa = (südamerika - südamerika8);
-console.log(ds + adsa + kg + oder + adsa / südamerika8 * 100 + prozent + mehr);
-console.log(space);
-var eu8 = "die Emissionen Europas liegen bei ";
-console.log(eu8 + europa + kg);
-var eur8 = (europa / gesamt) * 100;
-var prozent = "%";
-console.log(ds + eur8 + prozent + dw);
-var adeu = (europa8 - europa);
-console.log(ds + adeu + kg + oder + adeu / europa8 * 100 + prozent + weniger);
-console.log(space);
-var us8 = "die Emissionen Nordamerikas liegen bei ";
-console.log(us8 + nordamerika + kg);
-var usr8 = (nordamerika / gesamt) * 100;
-var prozent = "%";
-console.log(ds + usr8 + prozent + dw);
-var adus = (nordamerika8 - nordamerika);
-console.log(ds + adus + kg + oder + adus / nordamerika8 * 100 + prozent + weniger);
-console.log(space);
-var as8 = "die Emissionen Asiens liegen bei ";
-console.log(as8 + asien + kg);
-var asr8 = (asien / gesamt) * 100;
-var prozent = "%";
-console.log(ds + asr8 + prozent + dw);
-var asd = (asien - asien8);
-console.log(ds + asd + kg + oder + asd / asien8 * 100 + prozent + mehr);
-console.log(space);
-var aus8 = "die Emissionen Australiens liegen bei ";
-console.log(aus8 + australien + kg);
-var ausr8 = (australien / gesamt) * 100;
-var prozent = "%";
-console.log(ds + ausr8 + prozent + dw);
-var ausd = (australien - australien8);
-console.log(ds + ausd + kg + oder + ausd / australien8 * 100 + prozent + mehr);
+//afrika
+function af() {
+    //vars
+    var ad = (afrika - afrika8);
+    var ar8 = (afrika / gesamt) * 100;
+    //absolute
+    console.log(afrika);
+    //relative
+    console.log(ar8 + prozent);
+    //wachstum%
+    console.log(ad / afrika8 * 100 + prozent);
+    //wachstum
+    console.log(ad);
+}
+//südamerika
+function sa() {
+    //vars
+    var adsa = (südamerika - südamerika8);
+    var sar8 = (südamerika / gesamt) * 100;
+    //absolute
+    console.log(südamerika);
+    //relative
+    console.log(sar8 + prozent);
+    //wachstum%
+    console.log(adsa / europa8 * 100 + prozent);
+    //wachstum
+    console.log(adsa);
+}
+//europa
+function eu() {
+    //vars
+    var adeu = (europa8 - europa);
+    var eur8 = (europa / gesamt) * 100;
+    //absolute
+    console.log(europa);
+    //relative
+    console.log(eur8 + prozent);
+    //wachstum%
+    console.log(adeu / europa8 * 100 + prozent);
+    //wachstum
+    console.log(adeu);
+}
+//nordamerika
+function na() {
+    //vars
+    var adus = (nordamerika8 - nordamerika);
+    var usr8 = (nordamerika / gesamt) * 100;
+    //absolute
+    console.log(nordamerika);
+    //relative
+    console.log(usr8 + prozent);
+    //wachstum%
+    console.log(adus / nordamerika8 * 100 + prozent);
+    //wachstum
+    console.log(adus);
+}
+//asien
+function asi() {
+    //vars
+    var asd = (asien - asien8);
+    var asr8 = (asien / gesamt) * 100;
+    //absolute
+    console.log(asien);
+    //relative
+    console.log(asr8 + prozent);
+    //wachstum%
+    console.log(asd / asien8 * 100 + prozent);
+    //wachstum
+    console.log(asd);
+}
+//australien
+function aus() {
+    //vars
+    var ausd = (australien - australien8);
+    var ausr8 = (australien / gesamt) * 100;
+    //absolute
+    console.log(australien);
+    //relative
+    console.log(ausr8 + prozent);
+    //wachstum%
+    console.log(ausd / australien8 * 100 + prozent);
+    //wachstum
+    console.log(ausd);
+}
 //# sourceMappingURL=emissionen.js.map
