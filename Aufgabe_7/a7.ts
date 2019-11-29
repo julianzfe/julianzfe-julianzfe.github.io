@@ -22,12 +22,4 @@ sound.play();
 
 
 
-var sound:HTMLAudioElement = new Audio('');
-sound.play();
 
-
-
-
-window.addEventListener('load', function() {
-    document.querySelector(".button").addEventListener('click', play);
-});

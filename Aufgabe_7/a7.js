@@ -6,9 +6,4 @@ function playSample() {
     var sound = new Audio('assets/kick.mp3');
     sound.play();
 }
-var sound = new Audio('');
-sound.play();
-window.addEventListener('load', function () {
-    document.querySelector(".button").addEventListener('click', play);
-});
 //# sourceMappingURL=a7.js.map
