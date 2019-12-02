@@ -1,4 +1,88 @@
-.button
+body
 {
-width: 50px;
+background-color: black;
+
+}
+
+.bcontainer
+{
+position: absolute;
+width: 315px;
+height: 315px;
+left: 25%;
+top: 25%;
+
+background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#button1
+{
+width: 100px;
+height: 100px;
+background-color:blue;
+}
+#button2
+{
+width: 100px;
+height: 100px;
+background-color:blue;
+}
+#button3
+{
+width: 100px;
+height: 100px;
+background-color:blue;
+}
+
+
+#button4
+{
+width: 100px;
+height: 100px;
+background-color:pink;
+}
+#button5
+{
+width: 100px;
+height: 100px;
+background-color:pink;
+}
+#button6
+{
+width: 100px;
+height: 100px;
+background-color:pink;
+}
+#button7
+{
+width: 100px;
+height: 100px;
+background-color:pink;
+}
+
+
+#button8
+{
+width: 100px;
+height: 100px;
+background-color:orange;
+}
+#button9
+{
+width: 100px;
+height: 100px;
+background-color:orange;
 }
