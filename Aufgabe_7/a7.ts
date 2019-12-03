@@ -33,6 +33,46 @@ sound.play();
 
 
 
+window.addEventListener("load",function(){
+    this.document.querySelector("#play").addEventListener("click",tonreihe);
+
+});
+
+function tonreihe () {
+
+var reihe= ["assets/kick.mp3","assets/kick.mp3","assets/kick.mp3","assets/kick.mp3","assets/kick.mp3","assets/kick.mp3","assets/kick.mp3","assets/snare.mp3","assets/kick.mp3",     ];
+var index:number = 0;
+var interval = setInterval(gedoens,300)
+
+    function gedoens(){
+        
+        var MyMelody:HTMLAudioElement = new Audio(reihe [index]);
+        MyMelody.play();
+        index += 1;
+        if (index>11) index=0;
+        console.log(reihe [index]);
+        
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+var list:string[] = ["Otto","Eduard","Leopold","von","Bismarck","Schönhausen"]
+var index:number = 0;
+setInterval(function(){
+        console.log( list [index]);
+        index++;
+}, 1000)
+
+
 
 
 

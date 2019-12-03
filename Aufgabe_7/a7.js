@@ -21,4 +21,26 @@ function playSample2(ton) {
     var sound = new Audio("assets/" + ton);
     sound.play();
 }
+window.addEventListener("load", function () {
+    this.document.querySelector("#play").addEventListener("click", tonreihe);
+});
+function tonreihe() {
+    var reihe = ["assets/kick.mp3", "assets/kick.mp3", "assets/kick.mp3", "assets/kick.mp3", "assets/kick.mp3", "assets/kick.mp3", "assets/kick.mp3", "assets/snare.mp3", "assets/kick.mp3",];
+    var index = 0;
+    var interval = setInterval(gedoens, 300);
+    function gedoens() {
+        var MyMelody = new Audio(reihe[index]);
+        MyMelody.play();
+        index += 1;
+        if (index > 11)
+            index = 0;
+        console.log(reihe[index]);
+    }
+}
+var list = ["Otto", "Eduard", "Leopold", "von", "Bismarck", "Schönhausen"];
+var index = 0;
+setInterval(function () {
+    console.log(list[index]);
+    index++;
+}, 1000);
 //# sourceMappingURL=a7.js.map
