@@ -29,10 +29,4 @@ function tonreihe() {
         console.log(reihe[index]);
     }
 }
-var list = ["Otto", "Eduard", "Leopold", "von", "Bismarck", "Schönhausen"];
-var index = 0;
-setInterval(function () {
-    console.log(list[index]);
-    index++;
-}, 1000);
 //# sourceMappingURL=drumpad.js.map

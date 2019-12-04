@@ -1,10 +1,5 @@
 
 
-
-
-
-
-
 window.addEventListener("load", function () {
     document.querySelector ("#button1") .addEventListener ("mousedown", function () { playSample2 ("kick.mp3");    });
 
@@ -66,12 +61,6 @@ var interval = setInterval(gedoens,100)
 
 
 
-var list:string[] = ["Otto","Eduard","Leopold","von","Bismarck","Schönhausen"]
-var index:number = 0;
-setInterval(function(){
-        console.log( list [index]);
-        index++;
-}, 1000)
 
 
 
