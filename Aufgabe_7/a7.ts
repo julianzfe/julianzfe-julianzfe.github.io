@@ -42,12 +42,12 @@ function tonreihe () {
 
 var reihe= ["assets/kick.mp3","assets/kick.mp3","assets/kick.mp3","assets/kick.mp3","assets/kick.mp3","assets/kick.mp3","assets/kick.mp3","assets/snare.mp3","assets/kick.mp3",     ];
 var index:number = 0;
-var interval = setInterval(gedoens,300)
+var interval = setInterval(gedoens,100)
 
     function gedoens(){
         
-        var MyMelody:HTMLAudioElement = new Audio(reihe [index]);
-        MyMelody.play();
+        var faz:HTMLAudioElement = new Audio(reihe [index]);
+        faz.play();
         index += 1;
         if (index>11) index=0;
         console.log(reihe [index]);
