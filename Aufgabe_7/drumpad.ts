@@ -19,13 +19,13 @@ window.addEventListener("load", function () {
 
     document.querySelector ("#button3") .addEventListener ("mousedown", function () { playSample2 ("hihat.mp3");   });
 
-    document.querySelector ("#button4") .addEventListener ("mousedown", function () { playSample2 ("fn.mp3");       });
+    document.querySelector ("#button4") .addEventListener ("mousedown", function () { playSample2 ("fn.mp3");      });
 
-    document.querySelector ("#button5") .addEventListener ("mousedown", function () { playSample2 ("gn.mp3");       });
+    document.querySelector ("#button5") .addEventListener ("mousedown", function () { playSample2 ("gn.mp3");      });
 
-    document.querySelector ("#button6") .addEventListener ("mousedown", function () { playSample2 ("an.mp3");       });
+    document.querySelector ("#button6") .addEventListener ("mousedown", function () { playSample2 ("an.mp3");      });
 
-    document.querySelector ("#button7") .addEventListener ("mousedown", function () { playSample2 ("cn.mp3");       });
+    document.querySelector ("#button7") .addEventListener ("mousedown", function () { playSample2 ("cn.mp3");      });
 
     document.querySelector ("#button8") .addEventListener ("mousedown", function () { playSample2 ("laugh-1.mp3"); });
     
