@@ -1,27 +1,27 @@
 
 
 window.addEventListener("load", function () {
-    document.querySelector ("#button1") .addEventListener ("mousedown", function () { playSample2 ("kick.mp3");    });
+    document.querySelector ("#button1") .addEventListener ("mousedown", function () { playSample ("kick.mp3");    });
 
-    document.querySelector ("#button2") .addEventListener ("mousedown", function () { playSample2 ("snare.mp3");   });
+    document.querySelector ("#button2") .addEventListener ("mousedown", function () { playSample ("snare.mp3");   });
 
-    document.querySelector ("#button3") .addEventListener ("mousedown", function () { playSample2 ("hihat.mp3");   });
+    document.querySelector ("#button3") .addEventListener ("mousedown", function () { playSample ("hihat.mp3");   });
 
-    document.querySelector ("#button4") .addEventListener ("mousedown", function () { playSample2 ("fn.mp3");      });
+    document.querySelector ("#button4") .addEventListener ("mousedown", function () { playSample ("f.mp3");      });
 
-    document.querySelector ("#button5") .addEventListener ("mousedown", function () { playSample2 ("gn.mp3");      });
+    document.querySelector ("#button5") .addEventListener ("mousedown", function () { playSample ("g.mp3");      });
 
-    document.querySelector ("#button6") .addEventListener ("mousedown", function () { playSample2 ("an.mp3");      });
+    document.querySelector ("#button6") .addEventListener ("mousedown", function () { playSample ("a.mp3");      });
 
-    document.querySelector ("#button7") .addEventListener ("mousedown", function () { playSample2 ("cn.mp3");      });
+    document.querySelector ("#button7") .addEventListener ("mousedown", function () { playSample ("c.mp3");      });
 
-    document.querySelector ("#button8") .addEventListener ("mousedown", function () { playSample2 ("laugh-1.mp3"); });
+    document.querySelector ("#button8") .addEventListener ("mousedown", function () { playSample ("laugh-1.mp3"); });
     
-    document.querySelector ("#button9") .addEventListener ("mousedown", function () { playSample2 ("laugh-2.mp3"); });
+    document.querySelector ("#button9") .addEventListener ("mousedown", function () { playSample ("laugh-2.mp3"); });
 
 });
 
-function playSample2(ton) {
+function playSample(ton) {
     var sound = new Audio("assets/" + ton);
 sound.play();
 }
