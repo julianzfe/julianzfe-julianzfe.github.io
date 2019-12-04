@@ -1,12 +1,4 @@
 window.addEventListener("load", function () {
-    this.document.querySelector("#button1").addEventListener("click", playSample);
-});
-function playSample() {
-    console.log("klick");
-    var sound = new Audio('assets/kick.mp3');
-    sound.play();
-}
-window.addEventListener("load", function () {
     document.querySelector("#button1").addEventListener("mousedown", function () { playSample2("kick.mp3"); });
     document.querySelector("#button2").addEventListener("mousedown", function () { playSample2("snare.mp3"); });
     document.querySelector("#button3").addEventListener("mousedown", function () { playSample2("hihat.mp3"); });

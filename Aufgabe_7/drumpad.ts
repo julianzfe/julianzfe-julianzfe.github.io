@@ -1,13 +1,6 @@
-window.addEventListener("load",function(){
-    this.document.querySelector("#button1").addEventListener("click",playSample);
 
-});
-function playSample(){
-    console.log("klick");
-    var sound:HTMLAudioElement = new Audio('assets/kick.mp3');
-sound.play();
 
-}
+
 
 
 
