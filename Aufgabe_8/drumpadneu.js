@@ -17,7 +17,7 @@ window.addEventListener("load", function () {
     this.document.querySelector("#play").addEventListener("click", tonreihe);
 });
 function tonreihe() {
-    var reihe = ["assets/kick.mp3", "assets/kick.mp3", "assets/kick.mp3", "assets/kick.mp3", "assets/kick.mp3", "assets/kick.mp3", "assets/kick.mp3", "assets/snare.mp3", "assets/kick.mp3",];
+    var reihe = ["assets/kick.mp3", "assets/kick.mp3", "assets/kick.mp3", "assets/kick.mp3", "assets/kick.mp3", "assets/kick.mp3", "assets/kick.mp3", "assets/snare.mp3", "assets/kick.mp3"];
     var index = 0;
     var interval = setInterval(gedoens, 100);
     function gedoens() {
@@ -29,4 +29,4 @@ function tonreihe() {
         console.log(reihe[index]);
     }
 }
-//# sourceMappingURL=drumpad.js.map
+//# sourceMappingURL=drumpadneu.js.map
