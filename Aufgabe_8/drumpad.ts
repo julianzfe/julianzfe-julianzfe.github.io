@@ -1,3 +1,6 @@
+var reihe= ["assets/kick.mp3","assets/kick.mp3","assets/kick.mp3","assets/kick.mp3","assets/kick.mp3","assets/kick.mp3","assets/kick.mp3","assets/snare.mp3","assets/kick.mp3",     ];
+var a: boolean=false;
+
 
 
 window.addEventListener("load", function () {
@@ -18,13 +21,23 @@ window.addEventListener("load", function () {
     document.querySelector ("#button8") .addEventListener ("mousedown", function () { playSample ("laugh-1.mp3"); });
     
     document.querySelector ("#button9") .addEventListener ("mousedown", function () { playSample ("laugh-2.mp3"); });
-
+    
+    
+    
+    document.querySelector("#Record").addEventListener("click", aufnahme);
+    
+    document.querySelector("#delete").addEventListener("click", loeschen);
 });
 
 function playSample(ton) {
     var sound = new Audio("assets/" + ton);
 sound.play();
+if (a == true) {
+    reihe.push(ton);
+    }
 }
+
+
 
 
 
@@ -34,18 +47,19 @@ window.addEventListener("load",function(){
 
 });
 
+
+
+
 function tonreihe () {
 
-var reihe= ["assets/kick.mp3","assets/kick.mp3","assets/kick.mp3","assets/kick.mp3","assets/kick.mp3","assets/kick.mp3","assets/kick.mp3","assets/snare.mp3","assets/kick.mp3",     ];
 var index:number = 0;
 var interval = setInterval(gedoens,100)
 
-    function gedoens(){
-        
+    function gedoens(){      
         var faz:HTMLAudioElement = new Audio(reihe [index]);
         faz.play();
         index += 1;
-        if (index>11) index=0;
+        if (index > (reihe.length - 1)) index = 0;
         console.log(reihe [index]);
         
 
@@ -54,10 +68,19 @@ var interval = setInterval(gedoens,100)
 }
 
 
+function loeschen (): void {
+    reihe.length = 0;
 
+}
 
+function aufnahme (): void {
+    a = true;
+    console.log("This is recording a new Beat");
+}
 
+document.querySelector("#delete").addEventListener("click", loeschen);
 
+document.querySelector("#record").addEventListener("click", aufnahme);
 
 
 
