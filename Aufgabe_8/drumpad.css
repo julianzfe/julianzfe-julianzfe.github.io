@@ -8,7 +8,7 @@ background-color: black;
 {
 position: absolute;
 width: 309px;
-height: 400px;
+height: 450px;
 left: 25%;
 top: 25%;
 
@@ -16,13 +16,22 @@ top: 25%;
 }
 #play
 {
-margin-top: 100px;
-margin-left: -225px;
-position: absolute;
+margin-top: -50px;   
 
+width: 100px;
+height: 100px;
 }
-
-
+#delete
+{
+width: 100px;
+height: 100px;
+}
+#record
+{
+top: -50px;
+width: 100px;
+height: 100px;    
+}
 
 
 
