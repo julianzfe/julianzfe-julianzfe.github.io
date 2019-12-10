@@ -1,7 +1,8 @@
-var reihe= ["assets/kick.mp3","assets/kick.mp3","assets/kick.mp3","assets/kick.mp3","assets/kick.mp3","assets/kick.mp3","assets/kick.mp3","assets/snare.mp3","assets/kick.mp3",     ];
+var reihe : string []  = [ "kick.mp3" , "snare.mp3" , "kick.mp3"] ;
 var a: boolean=false;
+var index:number = 0;
 
-
+var sound;
 
 window.addEventListener("load", function () {
     document.querySelector ("#button1") .addEventListener ("mousedown", function () { playSample ("kick.mp3");    });
@@ -22,15 +23,15 @@ window.addEventListener("load", function () {
     
     document.querySelector ("#button9") .addEventListener ("mousedown", function () { playSample ("laugh-2.mp3"); });
     
-    
-    
+    document.querySelector("#play").addEventListener("mousedown", StartBeat);
+ 
     document.querySelector("#Record").addEventListener("click", aufnahme);
     
     document.querySelector("#delete").addEventListener("click", loeschen);
 });
 
-function playSample(ton) {
-    var sound = new Audio("assets/" + ton);
+function playSample(ton: string) {
+    var sound: HTMLAudioElement = new Audio("assets/" + ton);
 sound.play();
 if (a == true) {
     reihe.push(ton);
@@ -42,30 +43,53 @@ if (a == true) {
 
 
 
-window.addEventListener("load",function(){
-    this.document.querySelector("#play").addEventListener("click",tonreihe);
-
-});
 
 
 
 
-function tonreihe () {
 
-var index:number = 0;
-var interval = setInterval(gedoens,100)
 
-    function gedoens(){      
-        var faz:HTMLAudioElement = new Audio(reihe [index]);
-        faz.play();
+
+
+    function StartBeat(): void {
+        var index: number = 0;
+        
+        if ( document.getElementById("play").classList.contains("fa-play") ) {
+          document.getElementById("play").classList.remove("fa-play");
+          document.getElementById("play").classList.add("fa-pause");
+          sound = setInterval(gedoens, 300); 
+          a = false; 
+          console.log("an"); 
+      
+          
+        } else {
+          document.getElementById("play").classList.remove("fa-pause");
+          document.getElementById("play").classList.add("fa-play");
+          clearInterval(sound); 
+          console.log("aus");
+        }  }
+
+    
+
+
+
+
+
+
+
+
+
+function gedoens(){      
+        
+        playSample(reihe[index]);
         index += 1;
         if (index > (reihe.length - 1)) index = 0;
         console.log(reihe [index]);
         
 
     }
+ 
 
-}
 
 
 function loeschen (): void {
@@ -75,7 +99,7 @@ function loeschen (): void {
 
 function aufnahme (): void {
     a = true;
-    console.log("This is recording a new Beat");
+    console.log("Aufnahme");
 }
 
 document.querySelector("#delete").addEventListener("click", loeschen);
