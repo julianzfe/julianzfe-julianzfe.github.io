@@ -34,7 +34,7 @@ function playSample(ton: string) {
     var sound: HTMLAudioElement = new Audio("assets/" + ton);
 sound.play();
 if (a == true) {
-    reihe.push(ton);
+    reihe.push(ton); 
     }
 }
 
@@ -69,12 +69,11 @@ if (a == true) {
           console.log("aus");
         }  }
 
-    
+      
 
 
 
-
-
+  
 
 
 
