@@ -3,6 +3,7 @@ window.addEventListener("load", function () {
     document.querySelector(".hinzufügen").addEventListener("click", AddTaskText);
     document.querySelector(".number").addEventListener("click", AddTaskText);
 });
+
 function AddTaskText() {
     var newtask = document.querySelector(".neu").value;
     addTaskToList(newtask); 
@@ -11,6 +12,7 @@ function AddTaskText() {
     taskcounter = numberofChildren;
     document.querySelector(".nummer").innerHTML = numberofChildren + " Aufgaben gesamt";
 }
+
 function addTaskToList(newTaskValue) {
     var addElement = document.createElement("div");
     addElement.setAttribute("class", "Template");
@@ -22,6 +24,7 @@ function addTaskToList(newTaskValue) {
     addElement.innerHTML = myHtmlTemplate;
     document.querySelector(".Rahmen").appendChild(addElement);
 }
+
 function DeleteTaskText(ClickedTrash) {
     ClickedTrash.parentElement.remove();
     taskcounter--;
@@ -29,6 +32,7 @@ function DeleteTaskText(ClickedTrash) {
     var numberofChildren = element.children.length;
     document.querySelector(".nummer").innerHTML = numberofChildren + " Aufgaben gesamt";
 }
+
 function CheckedButton(ClickedButton) {
     if (ClickedButton.classList.contains("fa-circle")) {
         ClickedButton.classList.remove("fa-circle");
