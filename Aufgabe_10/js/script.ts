@@ -27,7 +27,7 @@ todosChecked: true
 }
 
 
-]
+];
 
 
 /**
@@ -154,7 +154,7 @@ function addTodo(): void {
          * Status der ToDos abbildet, für dieses ToDo (weil selbe Stelle im Array)
          * der Status "unchecked", hier false, gepusht.
          */
-        let addTask: Int ={
+        let addTask: Int = {
 
             todosText: (inputDOMElement.value),
             todosChecked : false
