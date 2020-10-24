@@ -1,0 +1,154 @@
+body{
+    background-color: beige;
+    font-family:sans-serif; 
+    font-size: 1em;
+}
+
+main{
+
+    width: 90%;
+}
+p{
+    font-size: 50px;
+    color:black;
+    padding: 0.5em;
+    margin-top: -10px;
+}
+#computer, #player{
+    clear:both;
+    background-color: greenyellow;
+    margin-left: 4.3%;
+    padding: 10px;
+    height: 190px;
+    width: 90%;
+    border-bottom-left-radius: 1px;
+    border-top-right-radius: 1px;
+
+}
+
+#player{
+    background-color: greenyellow;
+
+}
+#stack{
+    float:left;
+    height: 150px;
+    width:100px;
+    background-color: blue;
+    border: 3px solid red;
+    border-radius: 2px;
+    margin: 2%;
+    margin-left: 4.3%;
+}
+
+#zug{
+    float:left;
+    width: 270px;
+    font-size: 1.2em;
+    color: black;
+    margin-left: 5%;
+    margin-top: 7%;
+    
+}
+
+#active{
+    float:left;
+    height: 150px;
+    width:100px;
+    background-color: #009999;
+    border-radius: 3px;
+    border: 3px solid red;
+    margin: 2%;
+}
+
+#spielbeginn{
+    float:left;
+    font-size: 1.2em;
+    background-color: #b46363;
+    color: rgb(255, 255, 255);
+    padding: 0.5%;
+    margin: 6.5%;
+    margin-left: 15%;
+}
+
+.card {
+    float:left;
+    width: 80px;
+    height: 130px;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+}
+.backside img {
+    width: 80px;
+    height:130px;
+}
+
+#player .card, #computer .card{
+    margin-left: 1%;
+}
+
+#active .card, #stack .card{
+    position: absolute;
+}
+
+.blue {
+    background-color: #0051ff;
+}
+.purple {
+    background-color: purple;
+}
+.red {
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+
+.card p{
+    float:left;
+}
+
+.topleft{
+    color: white;
+    margin-top: -0.25em;
+}
+.topright{
+    top: 0px;
+    right:0px;
+    color: white;
+    margin-top: -0.25em;
+    margin-left: 1.8em;
+}
+
+.orange .middle{
+    color: #ec8525;
+}
+.blue .middle{
+    color: #0051ff;
+}
+.red .middle{
+    color:#d13d49;
+}
+.purple .middle{
+    color: #984bc4;
+}
+.bottomleft{
+    transform: rotate(180deg);
+    color: #ffffff;
+    margin-top: -1.9em;
+}
+.bottomright{
+    transform: rotate(180deg);
+    color: #ffffff;
+    margin-left: 1.8em;
+    margin-top: -1.9em;
+}
+footer{
+    background-color: #ffffff;
+    z-index: 1;
+}
+.name{
+    font-size: 15px;
+    color: black;
+}
+.kg{font-size: 1px;}

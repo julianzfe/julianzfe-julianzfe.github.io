@@ -34,7 +34,7 @@ window.addEventListener('load', function () {
         kartenStapelGenerieren();   // (Neuen) Kartenstapel erzeugen
 
         deck = kartenMischen(deck); // Karten mischen
-        kartenGeben(5);             // zu Spiel beginn erhält jeder Spieler 5 Karten
+        kartenGeben( );             // zu Spiel beginn erhält jeder Spieler 5 Karten
 
         kartenAnzeigen(spielerKarten);   // HTML updaten und Spieler-Karten erzeugen
         kartenAnzeigen(gegnerKarten);    // HTML updaten und Gegner-Karten erzeugen
