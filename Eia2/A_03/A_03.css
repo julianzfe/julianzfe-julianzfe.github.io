@@ -1,0 +1,18 @@
+.input {
+    width: 50%;
+    height: 700px;
+    background-color: aquamarine;
+    color: aquamarine;
+}
+h3{
+    color: cadetblue;
+}
+legend{
+    color: cadetblue;
+}
+p{
+    color: cadetblue;
+}
+label{
+    color: cadetblue;
+}
